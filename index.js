@@ -1,3 +1,7 @@
+//コンソールするところはここから
+
+//ここまで
+
 const question = 'ゲーム市場、最も売れたゲーム機は次の内どれ？';
 
 const answers = [
@@ -9,6 +13,7 @@ const answers = [
 const correct = 'ニンテンドーDS';
 
 const $button = document.getElementsByTagName('button');
+
 const buttonLength = $button.length;
 
 //クイズの問題文、選択肢を定義
